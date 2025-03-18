@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/jrinehart-buf/buf-tour-reboot-with-pv/server/gen/invoice/v1"
+	v1 "github.com/bufbuild/quickstarts/buf-schema-registry/server/gen/invoice/v1"
 	http "net/http"
 	strings "strings"
 )
