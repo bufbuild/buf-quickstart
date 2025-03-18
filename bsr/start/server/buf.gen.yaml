@@ -14,4 +14,4 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/bufbuild/quickstarts/buf-schema-registry/server/gen
+      value: github.com/bufbuild/quickstarts/bsr/server/gen
