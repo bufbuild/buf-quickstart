@@ -15,15 +15,6 @@ import (
 
 const address = "localhost:8080"
 
-/*
-Example curl:
-
-	buf curl \
-		--data '{ "invoice": { "customer_id": "bob", "line_items": [{"unit_price": "999", "quantity": "2"}] }, "tags": { "tag": ["spring-promo","valued-customer"] } }' \
-		--schema . \
-		--http2-prior-knowledge \
-		http://localhost:8080/invoice.v1.InvoiceService/CreateInvoice
-*/
 func main() {
 	mux := http.NewServeMux()
 
