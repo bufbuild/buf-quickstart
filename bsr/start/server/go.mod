@@ -3,6 +3,7 @@ module github.com/bufbuild/buf-quickstarts/bsr/server
 go 1.24.0
 
 require (
+	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1
 	connectrpc.com/connect v1.18.1
 	connectrpc.com/validate v0.2.0
 	golang.org/x/net v0.38.0
@@ -10,7 +11,6 @@ require (
 )
 
 require (
-	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect
 	cel.dev/expr v0.22.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/bufbuild/protovalidate-go v0.9.1 // indirect
