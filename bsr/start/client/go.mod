@@ -1,3 +1,3 @@
-module github.com/jrinehart-buf/buf-tour-reboot-with-pv/client
+module github.com/bufbuild/buf-quickstarts/bsr/client
 
 go 1.24.0
